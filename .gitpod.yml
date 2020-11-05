@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - init: meteor npm install
+ports:
+  - port: 3000
